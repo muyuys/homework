@@ -18,11 +18,11 @@ unsigned short move(int n,char one,char two,char three)
 int main()
 {
 	unsigned short mi,m2=0;
-	printf("\nA×ùÓĞ2¸öÅÌ×ÓµÄÇé¿ö:\n");
+	printf("\nAåº§æœ‰2ä¸ªç›˜å­çš„æƒ…å†µ:\n");
 	m1=move(2,'A','B','C');
-	printf("\nA×ùÓĞ3¸öÅÌ×ÓµÄÇé¿ö:\n");
+	printf("\nAåº§æœ‰3ä¸ªç›˜å­çš„æƒ…å†µ:\n");
 	m2=move(3,'A','B','C');
-    printf("Ğ¡ºÍÉĞ¹²»¨·ÑÁË%%uÌì¡£\n",m2-m1);
+    printf("å°å’Œå°šå…±èŠ±è´¹äº†%uå¤©ã€‚\n",m2-m1);
     return 0;
 }
 
